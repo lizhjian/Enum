@@ -7,7 +7,7 @@ public class TestSeason2 {
             System.out.println(season2s[i]);
         }
         //2、valueOf(String name) 返回对应的对象
-        String str ="SUMMER";
+        String str ="SPRING1";
         Season2 season2 = Season2.valueOf(str);
         System.out.println(season2);
         season2.show();
